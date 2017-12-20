@@ -1,0 +1,67 @@
+body{
+	background:#232323;
+	margin:0 ;
+	font-family: "Monsterrat","Avenir";
+}
+
+.square{
+	width:30%;
+	margin:1.66%;
+	padding-top:30%;
+	background:red;
+	float: left;
+	border-radius: 20%;
+	transition: background 0.4s;
+}
+#container{
+	max-width:500px;
+	margin:0 auto;
+	padding-top: 20px;
+}
+h1{
+	color:white;
+	text-align: center;
+	margin:0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+.strip{
+	//padding:0 auto;
+	background: white;
+	height:40px;
+	text-align:center;
+}
+.mode{
+	background:steelblue;
+	color:white;
+}
+.top{
+	background: steelblue;
+	margin:0 auto;
+	text-transform: uppercase;
+}
+.code{
+	font-size: 200%;
+}
+button{
+	text-transform: uppercase;
+	height: 100%;
+	border: none;
+	background: none;
+	color: steelblue;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.4s;
+	outline: none;
+}
+#result{
+    display: inline-block;
+    width: 20%; 
+
+}
+button:hover{
+   color:white;
+   background: steelblue;	
+}
